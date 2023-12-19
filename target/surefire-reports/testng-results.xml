@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7675" started-at="2023-12-18T01:06:34Z" finished-at="2023-12-18T01:06:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7675" started-at="2023-12-18T01:06:34Z" finished-at="2023-12-18T01:06:41Z">
+      <class name="test_cases.LoginTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:test_cases.LoginTest@51f116b8]" name="setupBrowser" is-config="true" duration-ms="2768" started-at="2023-12-17T20:06:34Z" finished-at="2023-12-17T20:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="logintoapp(java.lang.String, java.lang.String)[pri:0, instance:test_cases.LoginTest@51f116b8]" name="logintoapp" duration-ms="3647" started-at="2023-12-17T20:06:37Z" data-provider="EmpDataSet" finished-at="2023-12-17T20:06:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ineuron@ineuron.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ineuron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:test_cases.LoginTest@51f116b8]" name="closebrowser" is-config="true" duration-ms="745" started-at="2023-12-17T20:06:40Z" finished-at="2023-12-17T20:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test_cases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
